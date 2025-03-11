@@ -127,8 +127,8 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::3
     private-key: "sBlOEknlqiLiQ0cgThr8n9sZB6nCJ0oTgYMlTlLgekY="
-    server: 188.114.97.56
-    port: 500
+    server: 188.114.97.67
+    port: 1074
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -151,8 +151,8 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::3
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.97.221
-    port: 500
+    server: 188.114.97.149
+    port: 1843
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -165,8 +165,8 @@ proxies:
     ip: 172.16.0.3
     ipv6: 2001:db8:1::3
     private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
-    server: 188.114.99.48
-    port: 7281
+    server: 188.114.97.139
+    port: 7152
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -195,10 +195,10 @@ proxies:
   - name: "🇮🇷 Warp - IPv6"
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2001:db8:1::3
+    ipv6: 2001:db8:1::1
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: "[2606:4700:d0::5db:987a:2353:9dcc]"
-    port: 3854
+    server: "[2606:4700:d1::f9fa:a95b:8ee9:868e]"
+    port: 1074
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
@@ -219,10 +219,10 @@ proxies:
   - name: "🇸🇪 Warp - IPv6"
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2001:db8:1::3
+    ipv6: 2001:db8:1::1
     private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
-    server: 162.159.192.2
-    port: 1010
+    server: 188.114.97.103
+    port: 1018
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
